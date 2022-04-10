@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="./stylerarajajanana.css">
+    <link rel="stylesheet" href="./custom_styledadajajananafafa.css">
+    <link rel="shortcut icon" href="./img/favicorarajajananafafa.ico" type="img/x-icon">
+    <script src="./script/customrarajajananafafa.js"></script>
+    <script src="./script/cdn.js"></script>
+		<title>waderuv</title>
+
+	</head>
+	<body class="bg-white font-sans" x-data="{ openMenu : false }" :class="openMenu ? 'overflow-hidden' : 'overflow-visible' ">
+        <!--PRELOADER-->
+        <div id='preloader'>
+            <img src="./img/preloaderrarajajananafafa.gif" alt="preloader">
+        </div>
+
+  <header class="flex justify-between items-center bg-white drop-shadow-sm py-4 px-8">
+
+    <!-- Logo -->
+    <a href="./index.html" class="text-lg font-bold">waderuv</a>
+
+    <!-- Mobile Menu Toggle -->
+    <button class="flex md:hidden flex-col items-center align-middle" @click="openMenu = !openMenu">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+      <span class="text-xs">Menú</span>
+    </button>
+
+    <!-- Main Navigations -->
+    <nav class="hidden md:flex">
+
+      <ul class="flex flex-row gap-2">
+        <li>
+          <a href="./index.html" class="inline-flex py-2 px-3 bg-slate-200 rounded" aria-current="true">Casa</a>
+        </li>
+        <li>
+          <a href="./contactushshsjajananafafa.html" class="inline-flex py-2 px-3 hover:bg-slate-200 rounded">Contáctenos</a>
+        </li>
+        <li>
+          <a href="./privacypolicyrarajajananafafa.html" class="inline-flex py-2 px-3 hover:bg-slate-200 rounded">Política de privacidad</a>
+        </li>
+      </ul>
+
+    </nav>
+
+  </header>
+
+
+  <!-- Pop Out Navigation -->
+  <nav class="fixed top-0 right-0 bottom-0 left-0 backdrop-blur-sm z-10" :class="openMenu ? 'visible' : 'invisible' ">
+
+    <!-- UL Links -->
+    <ul class="absolute top-0 right-0 bottom-0 w-10/12 py-4 bg-white drop-shadow-2xl z-10 transition-all"
+      :class="openMenu ? 'translate-x-0' : 'translate-x-full'">
+
+      <li class="border-b border-inherit">
+        <a href="./index.html" class="block p-4" aria-current="true">Casa</a>
+      </li>
+      <li class="border-b border-inherit">
+        <a href="./contactushshsjajananafafa.html" class="block p-4">Contáctenos</a>
+      </li>
+      <li class="border-b border-inherit">
+        <a href="./privacypolicyrarajajananafafa.html" class="block p-4">Política de privacidad</a>
+      </li>
+    </ul>
+
+    <!-- Close Button -->
+    <button class="absolute top-0 right-0 bottom-0 left-0" @click="openMenu = !openMenu">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 absolute top-2 left-2" fill="none" viewBox="0 0 24 24"
+        stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </button>
+
+  </nav>
+
+
+          <section class="pt-8 px-4">
+            <div class="flex flex-wrap -mx-4">
+              <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="./img/carous1rarajajananafafa.jpg" alt=""></div>
+              <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="./img/page2imagerarajajananafafa.jpg" alt=""></div>
+              <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="./img/page1imagerarajajananafafa.jpg" alt=""></div>
+              <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="./img/carous1rarajajananafafa.jpg" alt=""></div>
+              <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="./img/page2imagerarajajananafafa.jpg" alt=""></div>
+              <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="./img/page1imagerarajajananafafa.jpg" alt=""></div>
+            </div>
+          </section>
+
+
+          <div class="container w-full md:max-w-3xl mx-auto pt-20">
+
+            <div class="w-full px-4 md:px-6 text-xl text-gray-800 leading-normal" style="font-family:Georgia,serif;">
+        
+              <!--Title-->
+              <div class="font-sans">
+                <a href="./index.html" class="text-base md:text-sm text-green-500 font-bold">&lt; <a href="./index.html" class="text-base md:text-sm text-green-500 font-bold no-underline hover:underline">Terug naar de blog</a></p>
+                    <h1 class="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl">12 cosas en las que la gente se equivoca acerca de las relaciones</h1>
+                    <p class="text-sm md:text-base font-normal text-gray-600">Publicado hace 2 horas</p>
+              </div>
+        
+        
+              <!--Lead Para-->
+              <p class="py-6">12 cosas en las que la gente se equivoca acerca de las relaciones</p>
+              <p class="py-6">Los problemas no desaparecen, y no siempre hay que ser feliz.</p>
+              <p class="py-6">¿Qué pasa si todo lo que crees que sabes sobre las relaciones está mal?</p>
+              <p class="py-6">Está bien, tal vez no todo, pero las relaciones son complicadas y tu entrenamiento es limitado. Solo piensa: ¿Cómo aprendiste sobre las relaciones? Tal vez aprendiste algunos consejos de tus padres, viendo televisión, chateando con amigos o un buen ensayo y error a la antigua. Desafortunadamente, estas fuentes no pueden garantizar una verdadera experiencia sobre cómo tener una relación sana. ¿El resultado? Es imposible saber si estás confiando en un hecho bien establecido o en una ficción bien intencionada.</p>
+              <p class="py-6">Para dejar las cosas claras, contacté a un grupo de estrellas de los mejores expertos en relaciones para obtener sus puntos de vista. Específicamente, les pregunté en qué se equivocan más comúnmente las parejas, o en otras palabras, los mitos, errores y puntos ciegos que, sin saberlo, socavan las relaciones. Además, dieron algunos consejos sobre cómo hacerlo bien.</p>
+              <p class="py-6">Helen Fisher: antropóloga biológica, investigadora sénior en el Instituto Kinsey y asesora científica principal de Match.com; autor de Anatomía del amor.</p>
+              <p class="py-6">Los hombres son incomprendidos: la pandemia produjo un cambio histórico en el noviazgo: hacia un crecimiento postraumático . Antes de COVID, el 58 por ciento de los solteros quería establecerse; hoy, el 76 por ciento quiere una relación comprometida, y los hombres están liderando el camino.</p>
+              <p class="py-6">La gente malinterpreta a los hombres. En mis estudios de Match.com sobre más de 55,000 estadounidenses solteros (no solo miembros de Match), los hombres tienden a enamorarse más rápido y con mayor frecuencia; quieren mudarse juntos más rápido y es más probable que crean que una "conexión" puede conducir al amor. Hoy en día, es mucho más probable que los hombres quieran una relación comprometida dentro del próximo año. El compromiso es el nuevo sexy.</p>
+              <p class="py-6">Para una relación más sólida, enfóquese más en el amor de compañía o en las formas en que su pareja es su mejor amigo, observando factores como los intereses compartidos, el tiempo que disfrutan pasar juntos y el respeto mutuo. Esas son la verdadera clave para el amor duradero.</p>
+              <p class="py-6">El mito del alma gemela: Casi dos tercios de los estadounidenses creen en las almas gemelas, o en la idea de que hay una sola persona que es su pareja perfecta. Si bien es una idea encantadora para una comedia romántica o un cuento de hadas, en la práctica, lleva a las personas solteras a estar constantemente en la búsqueda de la perfección entre las personas con las que salen mientras buscan este sentimiento mágico de "alma gemela", un sentimiento que en última instancia es inalcanzable.</p>
+              <p class="py-6">En las relaciones, la creencia en las almas gemelas nos impide estar dispuestos a aceptar los defectos de nuestra pareja y verlos como seres humanos imperfectos que están aprendiendo y creciendo junto a nosotros. La realidad es que hay muchas coincidencias posibles para usted, y realmente se trata de encontrar a alguien que se alinee con sus valores y metas para el futuro con quien asociarse en este viaje salvaje que llamamos vida.</p>
+              <p class="py-6">Si hay un problema en la relación, siempre que ambas personas estén dispuestas a superarlo, las cosas pueden mejorar y usted puede restaurar su nivel de felicidad . Las relaciones van y vienen y cambian para siempre, por lo que es esencial ser flexible y adaptarse a los cambios. ¡Mientras crezcan juntos y no se separen, su relación está en excelente forma!</p>
+              <p class="py-6">Pero lo cierto es que probablemente haya tantas versiones del amor como personas. Tienes personas con un estilo de apego seguro , para quienes el amor puede sentirse placentero, pacífico y seguro, mientras que, por otro lado, tienes personas con un estilo de apego inseguro, donde la emoción del amor puede combinarse con sentimientos de miedo y ansiedad . ¡Y estas personas pueden estar juntas en una relación!</p>
+              <p class="py-6">Conocer y tener compasión por los estilos de apego del otro es la clave del amor. Hay más de una forma correcta de ser humano, y hay muchas formas de sentir amor.</p>
+              <p class="py-6">Desafortunadamente, el amor por sí solo no es suficiente para mantener una relación. Usted y su pareja deben participar activamente para determinar si sus problemas tienen solución o son perpetuos. Este último tipo de problemas son particularmente importantes porque no desaparecerán, estarán contigo durante toda la relación.</p>
+        
+      
+        
+        
+        
+          </div>
+          </div>
+
+
+        <footer class="bg-gray-600 py-8 md:py-16">
+
+          <div class="container max-w-screen-xl mx-auto px-4">
+
+              <div class="lg:flex flex-col md:flex-row text-center lg:text-left lg:justify-between">
+                  <div class="mb-10 lg:mb-0">
+  
+                      <p class="font-normal text-gray-400 text-md">El mejor blog sobre la psicología de las relaciones.</p>
+                  </div>
+
+                  <div class="space-y-4 mb-10 lg:mb-0">
+                      <h4 class="font-semibold text-gray-500 text-lg mb-6">Navegación rápida</h4>
+
+                      <a href="./index.html" class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">Casa</a>
+
+                      <a href="./privacypolicyrarajajananafafa.html" class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">Política de privacidad</a>
+
+                      <a href="./contactushshsjajananafafa.html" class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">Conéctate con nosotros</a>
+
+                  </div>
+
+                  <div class="space-y-4 mb-10 lg:mb-0">
+                      <h4 class="font-semibold text-gray-500 text-lg mb-6">Vínculos sociales</h4>
+
+                      <a href="https://twitter.com" class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">Twitter</a>
+
+                      <a href="https://facebook.com" class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">facebook</a>
+
+                      <a href="https://youtube.com" class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">youtube</a>
+                  </div>
+
+                  <div class="space-y-4">
+                      <h4 class="font-semibold text-gray-500 text-lg mb-6">Nuestra dirección</h4>
+
+                      <p class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">Camiño Ancho 80, 37790, De Béjar, España</p>
+
+                      <p class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">680 233 344</p>
+
+                      <p class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">info@waderuv.com</p>
+                  </div>
+              </div>
+
+              <hr class="text-gray-300 mt-10">
+
+              <p class="font-normal text-gray-400 text-md text-center mt-5">&copy; 2022 waderuv. All rights reserved.</p>
+
+          </div> <!-- container.// -->
+
+      </footer>
+  </div>
+
+
+
+                        
+                
+                    </body>
+                </html>
+                

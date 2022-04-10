@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="./stylerarajajanana.css">
+    <link rel="stylesheet" href="./custom_styledadajajananafafa.css">
+    <link rel="shortcut icon" href="./img/favicorarajajananafafa.ico" type="img/x-icon">
+    <script src="./script/customrarajajananafafa.js"></script>
+    <script src="./script/cdn.js"></script>
+		<title>waderuv</title>
+
+	</head>
+	<body class="bg-white font-sans" x-data="{ openMenu : false }" :class="openMenu ? 'overflow-hidden' : 'overflow-visible' ">
+        <!--PRELOADER-->
+        <div id='preloader'>
+            <img src="./img/preloaderrarajajananafafa.gif" alt="preloader">
+        </div>
+
+  <header class="flex justify-between items-center bg-white drop-shadow-sm py-4 px-8">
+
+    <!-- Logo -->
+    <a href="./index.html" class="text-lg font-bold">waderuv</a>
+
+    <!-- Mobile Menu Toggle -->
+    <button class="flex md:hidden flex-col items-center align-middle" @click="openMenu = !openMenu">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+      <span class="text-xs">Menú</span>
+    </button>
+
+    <!-- Main Navigations -->
+    <nav class="hidden md:flex">
+
+      <ul class="flex flex-row gap-2">
+        <li>
+          <a href="./index.html" class="inline-flex py-2 px-3 bg-slate-200 rounded" aria-current="true">Casa</a>
+        </li>
+        <li>
+          <a href="./contactushshsjajananafafa.html" class="inline-flex py-2 px-3 hover:bg-slate-200 rounded">Contáctenos</a>
+        </li>
+        <li>
+          <a href="./privacypolicyrarajajananafafa.html" class="inline-flex py-2 px-3 hover:bg-slate-200 rounded">Política de privacidad</a>
+        </li>
+      </ul>
+
+    </nav>
+
+  </header>
+
+
+  <!-- Pop Out Navigation -->
+  <nav class="fixed top-0 right-0 bottom-0 left-0 backdrop-blur-sm z-10" :class="openMenu ? 'visible' : 'invisible' ">
+
+    <!-- UL Links -->
+    <ul class="absolute top-0 right-0 bottom-0 w-10/12 py-4 bg-white drop-shadow-2xl z-10 transition-all"
+      :class="openMenu ? 'translate-x-0' : 'translate-x-full'">
+
+      <li class="border-b border-inherit">
+        <a href="./index.html" class="block p-4" aria-current="true">Casa</a>
+      </li>
+      <li class="border-b border-inherit">
+        <a href="./contactushshsjajananafafa.html" class="block p-4">Contáctenos</a>
+      </li>
+      <li class="border-b border-inherit">
+        <a href="./privacypolicyrarajajananafafa.html" class="block p-4">Política de privacidad</a>
+      </li>
+    </ul>
+
+    <!-- Close Button -->
+    <button class="absolute top-0 right-0 bottom-0 left-0" @click="openMenu = !openMenu">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 absolute top-2 left-2" fill="none" viewBox="0 0 24 24"
+        stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </button>
+
+  </nav>
+
+          <section class="pt-8 px-4">
+            <div class="flex flex-wrap -mx-4">
+              <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="./img/carous1rarajajananafafa.jpg" alt=""></div>
+              <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="./img/page2imagerarajajananafafa.jpg" alt=""></div>
+              <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="./img/page1imagerarajajananafafa.jpg" alt=""></div>
+              <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="./img/carous1rarajajananafafa.jpg" alt=""></div>
+              <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="./img/page2imagerarajajananafafa.jpg" alt=""></div>
+              <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="./img/page1imagerarajajananafafa.jpg" alt=""></div>
+            </div>
+          </section>
+
+
+
+          <div class="container w-full md:max-w-3xl mx-auto pt-20">
+
+            <div class="w-full px-4 md:px-6 text-xl text-gray-800 leading-normal" style="font-family:Georgia,serif;">
+        
+              <!--Title-->
+              <div class="font-sans">
+                <a href="./index.html" class="text-base md:text-sm text-green-500 font-bold">&lt; <a href="./index.html" class="text-base md:text-sm text-green-500 font-bold no-underline hover:underline">Terug naar de blog</a></p>
+                    <h1 class="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl">Política de privacidad</h1>
+              </div>
+        
+        
+              <!--Lead Para-->
+        
+              <p class="py-6">Esta Política de privacidad explica cómo se utilizan sus datos personales y se comparten cuando lo visita o lo compra en el sitio.</p>
+              <p class="py-6">Información personal que hemos recogido.</p>
+              <p class="py-6">Cuando visite el sitio, recopilamos automáticamente información sobre el dispositivo, incluida la información sobre su navegador web, dirección IP, su zona horaria, zona horaria y cookies específicas instaladas en su dispositivo.Además, cuando navega por la navegación dos veces, si desea recopilar información sobre cualquier sitio web o visitas.Sitios web y términos de búsqueda, visite el sitio web y la información al comunicarse con el sitio web.Esta información recopila automáticamente la "Información de llamadas de tono".</p>
+              <p class="py-6">Recopilamos información sobre el aparato con tecnologías impresas:</p>
+              <p class="py-6">Los "Archivos de registro" siguen las tareas realizadas en el sitio web y la recopilación de datos, incluida la dirección IP, el tipo de navegador, proveedor de Internet, páginas de conexión / salida y marcadores de datos.</p>
+              <p class="py-6">"Web Becks", "Etiqueta" y "Pixel" son archivos electrónicos con información sobre la navegación del sitio.</p>
+              <p class="py-6">Número de teléfono Esta información se llama "Información de pedido".</p>
+              <p class="py-6">Si hablamos de "información personal" en esta Política de privacidad, también hablamos de periféricos y le pedimos información.</p>
+              <p class="py-6">¿Como usamos tu información personal?</p>
+              <p class="py-6">La información de control generalmente recopilada se usa para responder a los comandos de stand (incluido el procesamiento de la información de pago, la organización de entrega y la confirmación de facturas y / o confirmación de confirmación).</p>
+              <p class="py-6">Utilizamos los datos de datos que aplicamos para confirmar riesgos y fraudes potenciales (especialmente su dirección IP) y para mejorar y optimizar nuestro sitio web.</p>
+              <p class="py-6">Compartir información personal.</p>
+              <p class="py-6">Compartimos sus datos personales con terceros para ayudarnos a usar sus datos personales como se describe anteriormente. También usamos Google Analytics para comprender cómo nuestros clientes utilizan el sitio web: Obtenga más información sobre cómo Google utiliza su información personal: HTTPS: // www. Google .com / INTL / ES / FR / FRUCIAIRIRE / SMOEN Usted cancela la conexión de Annixe Google Analytics en https://tools.google.com/dlpage/gaoptout.</p>
+              <p class="py-6">Finalmente, podemos compartir su información personal para responder a las leyes y regulaciones aplicables, para responder a las contribuciones, registrar pedidos u otras consultas legítimas o para proteger nuestros derechos.</p>
+              <p class="py-6">Show</p>
+              <p class="py-6">Como se describió anteriormente, usamos su información personal para ofrecer comunicación directa o de marketing que está interesada en nuestra opinión.</p>
+              <p class="py-6">Puede ser excluido de la conexión LED desde la izquierda izquierda:</p>
+              <p class="py-6">Facebook: https://www.facebook.com/settings/?tab=ads</p>
+              <p class="py-6">Google: https://www.google.com/settings/ads/anonymous</p>
+              <p class="py-6">Bing: https://advertise.bingads.microsoft.com/en-us/resources/policies/personalized-ads</p>
+              <p class="py-6">También puede desactivar estos servicios visitando el desglose publicitario del portal de bloqueo digital.: Http://optout.aboutads.info/.</p>
+              <p class="py-6">Seguir</p>
+              <p class="py-6">Recuerde que no cambiamos la recopilación de datos y no usamos las prácticas de nuestro sitio web si no sigue la señal de su navegador.</p>
+              <p class="py-6">Tus derechos</p>
+              <p class="py-6">Si usted es un residente europeo, tiene derecho a acceder a sus datos personales almacenados en usted y la rectificación, actualizar o eliminar datos personales. Si desea practicar correctamente, los contactos no se actualizan en los siguientes datos de contacto.</p>
+              <p class="py-6">Si usted es un residente europeo, respondemos a sus datos a sus datos para cumplir con nuestros contratos con usted (por ejemplo, a través del sitio web) o de lo contrario, si no, si no, si no, si no, se confirman nuestros intereses comerciales legítimos.Los datos se transfieren a Europa, incluido Canadá y Estados Unidos.</p>
+              <p class="py-6">Preservación</p>
+              <p class="py-6">Si le pregunta al sitio web, consideramos la orden de pedido de nuestros registros a menos que le solicite que elimine esta información.</p>
+              <p class="py-6">Moditor.</p>
+              <p class="py-6">Podemos actualizar esta Política de privacidad de vez en cuando, por ejemplo, para reproducir cambios en nuestras prácticas u otras razones operativas, legales o legales.</p>
+
+
+                        
+        
+      
+        
+        
+        
+          </div>
+          </div>
+
+
+        <footer class="bg-gray-600 py-8 md:py-16">
+
+          <div class="container max-w-screen-xl mx-auto px-4">
+
+              <div class="lg:flex flex-col md:flex-row text-center lg:text-left lg:justify-between">
+                  <div class="mb-10 lg:mb-0">
+  
+                      <p class="font-normal text-gray-400 text-md">El mejor blog sobre la psicología de las relaciones.</p>
+                  </div>
+
+                  <div class="space-y-4 mb-10 lg:mb-0">
+                      <h4 class="font-semibold text-gray-500 text-lg mb-6">Navegación rápida</h4>
+
+                      <a href="./index.html" class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">Casa</a>
+
+                      <a href="./privacypolicyrarajajananafafa.html" class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">Política de privacidad</a>
+
+                      <a href="./contactushshsjajananafafa.html" class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">Conéctate con nosotros</a>
+
+                  </div>
+
+                  <div class="space-y-4 mb-10 lg:mb-0">
+                      <h4 class="font-semibold text-gray-500 text-lg mb-6">Vínculos sociales</h4>
+
+                      <a href="https://twitter.com" class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">Twitter</a>
+
+                      <a href="https://facebook.com" class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">facebook</a>
+
+                      <a href="https://youtube.com" class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">youtube</a>
+                  </div>
+
+                  <div class="space-y-4">
+                      <h4 class="font-semibold text-gray-500 text-lg mb-6">Nuestra dirección</h4>
+
+                      <p class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">Camiño Ancho 80, 37790, De Béjar, España</p>
+
+                      <p class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">680 233 344</p>
+
+                      <p class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">info@waderuv.com</p>
+                  </div>
+              </div>
+
+              <hr class="text-gray-300 mt-10">
+
+              <p class="font-normal text-gray-400 text-md text-center mt-5">&copy; 2022 waderuv. All rights reserved.</p>
+
+          </div> <!-- container.// -->
+
+      </footer>
+  </div>
+
+
+
+                        
+                
+                    </body>
+                </html>
+                
